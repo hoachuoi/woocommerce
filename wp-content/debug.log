@@ -1,0 +1,49 @@
+[01-Apr-2025 09:31:08 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "bacccccccccc" in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\themes\emoza-woocommerce\woocommerce\content-product.php:32
+Stack trace:
+#0 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\template.php(812): require()
+#1 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(285): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(62): wc_get_template_part('content', 'product')
+#3 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\themes\emoza-woocommerce\woocommerce\content-product.php on line 32
+[01-Apr-2025 10:14:36 UTC] PHP Deprecated:  Function wp_update_https_detection_errors is <strong>deprecated</strong> since version 6.4.0 with no alternative available. in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\functions.php on line 6114
+[02-Apr-2025 01:45:18 UTC] Automatic updates starting...
+[02-Apr-2025 01:45:20 UTC]   Automatic plugin updates starting...
+[02-Apr-2025 01:45:20 UTC]   Automatic plugin updates complete.
+[02-Apr-2025 01:45:21 UTC]   Automatic theme updates starting...
+[02-Apr-2025 01:45:21 UTC]   Automatic theme updates complete.
+[02-Apr-2025 01:45:21 UTC] Automatic updates complete.
+[02-Apr-2025 02:23:50 UTC] PHP Parse error:  syntax error, unexpected token ">", expecting end of file in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\themes\emoza-woocommerce\home.php on line 17
+[02-Apr-2025 03:38:59 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\functions.php on line 6114
+[02-Apr-2025 03:39:07 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\functions.php on line 6114
+[02-Apr-2025 03:39:13 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\functions.php on line 6114
+[02-Apr-2025 06:40:14 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 510
+[02-Apr-2025 06:46:35 UTC] PHP Fatal error:  Uncaught TypeError: Kliken\FbWcPlugin\Kliken_Marketing_Channel::get_supported_campaign_types(): Return value must be of type array, null returned in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\plugins\kliken-ads-pixel-for-meta\classes\class-kliken-marketing-channel.php:213
+Stack trace:
+#0 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\plugins\woocommerce\src\Admin\API\MarketingCampaignTypes.php(106): Kliken\FbWcPlugin\Kliken_Marketing_Channel->get_supported_campaign_types()
+#1 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1292): Automattic\WooCommerce\Admin\API\MarketingCampaignTypes->get_items(Object(WP_REST_Request))
+#2 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/marke...', Array, NULL)
+#3 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\rest-api.php(449): WP_REST_Server->serve_request('/wc-admin/marke...')
+#5 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#6 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#10 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\functions.php(1336): WP->main('')
+#11 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\wrordpress_woocommerce\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\plugins\kliken-ads-pixel-for-meta\classes\class-kliken-marketing-channel.php on line 213
+[03-Apr-2025 01:50:31 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-content\themes\emoza-woocommerce\inc\notices\class-emoza-pro-upsell.php on line 117
+[03-Apr-2025 01:50:31 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>emoza-woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\functions.php on line 6114
+[03-Apr-2025 01:50:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[03-Apr-2025 01:50:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\wrordpress_woocommerce\wordpress\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[03-Apr-2025 02:13:24 UTC] Automatic updates starting...
+[03-Apr-2025 02:13:27 UTC]   Automatic plugin updates starting...
+[03-Apr-2025 02:13:27 UTC]   Automatic plugin updates complete.
+[03-Apr-2025 02:13:28 UTC]   Automatic theme updates starting...
+[03-Apr-2025 02:13:28 UTC]   Automatic theme updates complete.
+[03-Apr-2025 02:13:28 UTC] Automatic updates complete.
